@@ -10,7 +10,7 @@ import (
 type todo struct {
 	ID					string	`json:"id"`
 	Item				string	`json:"title"`
-	Completed		bool		`json:"complete"`
+	Completed		bool		`json:"completed"`
 }
 
 var todos = []todo{
